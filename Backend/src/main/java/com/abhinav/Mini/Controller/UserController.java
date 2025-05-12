@@ -10,7 +10,6 @@ import java.util.List;
 @RestController
 @CrossOrigin("http://localhost:5174/")
 public class UserController {
-
     @Autowired
     private UserRepository userRepository;
 
